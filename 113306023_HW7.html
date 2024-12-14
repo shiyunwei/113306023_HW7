@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>113306023_HW7</title>
+	<link rel="stylesheet" type="text/css" href="113306023_HW7.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="photo-panel"></div>
+      <div class="text-content">
+      	<div class="name-container">
+  			<h1 id="nameLabel">SHIYUN</h1>
+  			<button id="editName">edit</button>
+		</div>
+        <section class="about-me">
+          <h2>About Me</h2>
+          <p>I am a freshman in the Department of Management Information Systems at National Chengchi University. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java, HTML, CSS, and Python.</p>
+        </section>
+        <section class="contact-info">
+          <h3>CONTACT</h3>
+          <ul>
+            <li>Email: 113306023@g.nccu.edu.tw</li>
+            <li>Phone: 0963-589-852</li>
+          </ul>
+        </section>
+        <img src="NCCU.png" alt="NCCU Icon" class="nccu-icon">
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <section class="education">
+       <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2024 - now</span>
+            <span class="description">Started my MIS degree at NCCU.</span>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2021 - 2024</span>
+            <span class="description">Studying in high school.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="homework-list">
+        <h2>Homework List</h2>
+        <ul>
+        	<li><a href = "https://github.com/shiyunwei/HW1.git">HW1 - https://github.com/shiyunwei/HW1.git</a></li><br>
+			<li><a href = "https://github.com/shiyunwei/HW2.git">HW2 - https://github.com/shiyunwei/HW2.git</a></li><br>
+			<li><a href = "https://github.com/shiyunwei/HW3.git">HW3 - https://github.com/shiyunwei/HW3.git</a></li><br>
+			<li><a href = "https://github.com/shiyunwei/113306023_HW4.git">HW4 - https://github.com/shiyunwei/113306023_HW4.git</a></li><br>
+			<li><a href = "https://github.com/shiyunwei/113306023_LAB1.git">LAB1 - https://github.com/shiyunwei/113306023_LAB1.git</a></li>
+        </ul>
+      </section>
+
+      <section class="favorite-music">
+        <h2>Favorite Music</h2>
+        <div class="songs" id="musicSection">
+        	<div class="song">
+        		<a href = "https://youtu.be/Wt3MQ66vnL4?si=M2rvrGJYemAVr0ae" target="_blank">
+				<img src="Youtube.jpg" alt="Youtube Icon"></a>
+				<p>沙發上的白日夢</p>
+			</div>
+			<div class="song">
+				<a href = "https://youtu.be/fgwQXa727ko?si=IQfUnAXYgCz0sMEf" target="_blank">
+				<img src="Youtube.jpg" alt="Youtube Icon"></a>
+				<p>記得我</p>
+			</div>
+			<div class="song">
+				<a href = "https://youtu.be/DiHUEWBRQEI?si=DnvUSrDHflrlQdfG" target="_blank">
+				<img src="Youtube.jpg" alt="Youtube Icon"></a>
+				<p>Deja Vu</p>
+			</div>
+			<div class="song">
+				<a href = "https://www.youtube.com/watch?v=WJK8486VjfU" target="_blank">
+				<img src="Youtube.jpg" alt="Youtube Icon"></a>
+				<p>永不失聯的愛</p>
+			</div>
+        </div>
+        <button id="addMusic">add</button>
+        <div id="musicForm" style="display: none;">
+          <form id="addMusicForm">
+            <label>
+              <input type="text" id="musicLink" placeholder="Music Link">
+            </label><br>
+            <label>
+              <input type="text" id="musicName" placeholder="Music Name">
+            </label><br>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <p class="note">These songs are my top picks this year because they resonate with my journey and mood!</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="113306023_HW7.js"></script>
+
+</body>
+</html>
